@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ondra10x10 - Minecraft YouTuber</title>
+    <title>Kanál Ondra10x10</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,13 +12,7 @@
             margin: 0;
             padding: 0;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        section {
+        .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
@@ -27,24 +21,18 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border: 2px solid #333;
-            border-radius: 5px;
+            width: 100%;
+            border: 5px solid #333;
+            border-radius: 10px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Ondra10x10 - Minecraft YouTuber</h1>
-    </header>
-    <section>
-        <h2>Vítejte na mém kanálu!</h2>
-        <p>Jsem Ondra10x10, váš průvodce světem Minecraftu. Zde najdete nová videa, tipy a triky a mnohem více!</p>
-        <p>Nezapomeňte se přihlásit k odběru a zůstat v obraze.</p>
-        <img src="obrazek.png" alt="Obrázek kanálu">
-    </section>
+    <div class="container">
+        <h1>Vítejte na Kanálu Ondra10x10!</h1>
+        <p>Jsem Minecraft youtuber a zde najdete nová videa, tipy a triky.</p>
+        <img src="obrazek.png" alt="Obrázek" onclick="window.open('https://www.youtube.com/@Ondra10x10', '_blank')">
+    </div>
 </body>
 </html>
